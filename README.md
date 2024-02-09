@@ -1,10 +1,10 @@
 # Data Mining Project
-### 目的
-给定多个医院送检样本数据，分析广东省内各地区（以地级市为单位）的疾病比例，有助于后续对各地区制定有针对性的营销战略。
-### 具体做法
-1. 医院数据清洗：数据中可能混入其他省份的医院，一个市可能有多个医院，需要先建立对应关系
-2. 关键词摘取：从所有送检样本诊断中摘取疾病关键词，建立字典
-3. 统计：以各个地级市为单位，根据诊断结果以及上述字典，统计疾病关键词数量
-4. 分析：根据数量给出判断。
-### 备注
-数据为公司机密，故未上传至此。
+### Purpose
+Given pathology sample data from multiple hospitals, the objective was to analyze the types of pathology specimens sent for testing in different regions and levels of hospitals in Guangdong Province. The analysis aimed to further understand the surgical capabilities of hospitals in different areas and levels as well as the types of diseases they focused on, facilitating market segmentation and the formulation of promotional strategies.
+### Approach
+1. Hospital Data Cleaning: The data was cleaned to establish correspondences between hospitals and filter out hospitals from other provinces. In cases where there were multiple hospitals in one city, appropriate relationships were established.
+2. Keyword Extraction: Key disease-related keywords were extracted from all diagnostic results to build a dictionary.
+3. Statistics: On a prefecture-level city basis, the quantity of disease-related keywords was tallied based on diagnostic results and the established dictionary.
+4. Analysis: Judgments were made based on the quantity of disease-related keywords.
+### Note
+The data is confidential and has not been uploaded here.
